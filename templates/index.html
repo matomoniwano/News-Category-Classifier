@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="UTF-8">
+   <title>Agenda.ge News Category Classifier</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+   <body>
+      <a target="_top" href="start"><h3>News Category Classifier</h3></a>
+      <br>
+      <form action="result", method="POST">
+         {% for message in get_flashed_messages() %}
+         <p>{{ message }}</p>
+         {% endfor %}
+         <br>
+         <textarea type="text", name = "input", rows=5></textarea>
+         <br>
+         <br>
+         <br>
+         <input type="submit" value="submit" id="result">
+         <br>
+         <br>
+         {% if output %}
+         <p>Classified category from the given text is....</p>
+         <div class="result">{{ output }}</div>
+         {% else %}   
+         <p>{{ nottyped }}</p>
+
+         {% endif %}
+
+
+      </form>
+   </body>
+   <footer>Built by Matomo Niwano</footer>
+</html>
