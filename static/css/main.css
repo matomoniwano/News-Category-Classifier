@@ -59,8 +59,13 @@ div.result{
 
 a{
     text-decoration: none; 
-
 }
+
+a.home{
+    font-size: 2em;
+    color:rgb(255, 255, 255)
+}
+
 a:visited { 
     text-decoration: none; 
     color: rgb(255, 255, 255); 

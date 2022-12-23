@@ -5,7 +5,7 @@
    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
    <body>
       <a target="_top" href="start"><h3>News Category Classifier</h3></a>
-      <br>
+      <p>Convert any text into following categories: <br><br>"POLITICS", "ECONOMY-BUSINESS", "SOCIETY-EDUCATION", "JUSTICE", "CULTURE","SPORT"</p>
       <form action="result", method="POST">
          {% for message in get_flashed_messages() %}
          <p>{{ message }}</p>
@@ -29,5 +29,9 @@
 
       </form>
    </body>
-   <footer>Built by Matomo Niwano</footer>
+   <footer>
+      <a href="https://github.com/matomoniwano/News-Category-Classifier/">
+      <img src="a.png" alt="github">
+      </a>
+   </footer>
 </html>
