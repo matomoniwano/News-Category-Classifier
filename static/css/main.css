@@ -79,3 +79,8 @@ a.fa-github {
     text-align: center;
     text-decoration: none;
   }
+
+a.fa-github:visited { 
+text-decoration: none; 
+color: rgb(255, 255, 255); 
+}
