@@ -15,7 +15,7 @@ To run the app, clone the repository and navigate to the root directory. Then, r
 python app.py
 ```
 
-The app will be hosted at http://127.0.0.1:5000/.
+The app will be hosted at [https://news-category-classifier-1.matomoniwano.repl.co/](https://news-category-classifier-1.matomoniwano.repl.co/).
 
 To classify a news article, enter the text in the text box and click the "submit" button. The app will return the predicted category for the given text.
 
