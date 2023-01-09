@@ -2,6 +2,8 @@
 
 This is a web application that classifies news articles into categories using Flask and a simple Linear Support Vector Classification Model.
 
+![](https://github.com/matomoniwano/News-Category-Classifier/blob/master/image/news-category-classifier.png?raw=true)
+
 ## Prerequisites
 
 * Flask
